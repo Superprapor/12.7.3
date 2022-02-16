@@ -1,0 +1,9 @@
+money = 100000
+deposit = []
+per_cent = {'ТКБ': 5.6, 'СКБ': 5.9, 'ВТБ': 4.28, 'СБЕР': 4.0}
+year = 365
+deposit.append(per_cent['ТКБ'] * money / year)
+deposit.append(per_cent['СКБ'] * money / year)
+deposit.append(per_cent['ВТБ'] * money / year)
+deposit.append(per_cent['СБЕР'] * money / year)
+print(deposit)
